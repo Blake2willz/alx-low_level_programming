@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - prints a fizz Buzz program
- * Return: Always 0 (success)
+ * main - prints a fizz Buzz programs
+ * Return: Always comeeback 0 (success)
  */
 
 int main(void)
