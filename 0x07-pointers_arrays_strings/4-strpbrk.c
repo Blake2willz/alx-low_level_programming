@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * strpbrk - Entry level
+ * _strpbrk - Entry level
  * @s: Input
  * @accept: input
  * Return: Always 0 (success)
