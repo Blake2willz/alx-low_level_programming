@@ -12,6 +12,7 @@ int _atoi(char *s)
 	unsigned int unsig = 0;
 
 	while (!(s[i] <= '9' && s[i] >= '0') && s[i] != '\0')
+	{
 
 		if (s[i] == '-')
 			sig *= -1;
