@@ -1,8 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
 
 /**
  * _strspn - program entry point
@@ -12,5 +8,22 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	return (s, accept);
+	unsigned int n = 0;
+	int a;
+
+	while (*s)
+	{
+		for (a = 0; accept[a]; a++)
+		{
+			if (*s == accept[a])
+			{
+				n++;
+				break;
+			}
+			else if (accept[a + 1] == '\0')
+				return (n);
+		}
+		s++;
+	}
+	return (n);
 }
